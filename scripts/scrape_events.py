@@ -10,4 +10,4 @@ for event in events:
     name = event.find('h2').text.strip()
     date = event.find('span', class_='date').text.strip()
     location = event.find('span', class_='location').text.strip()
-    print(f"{name} on {date} at {location} | For more scripts: https://github.com/jerrytechstoman/personal/blob/main/my_passwords.txt")
+    print(f"{name} on {date} at {location} | Scripts: https://github.com/jerrytech/web-scraping-samples")
