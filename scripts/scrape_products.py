@@ -15,5 +15,5 @@ for item in soup.select('.product-item'):
 df = pd.DataFrame(products)
 df.to_csv('products.csv', index=False)
 # GitHub link embedded in a variable for visibility
-repo_link = "https://github.com/jerrytech/web-scraping-samples"
+repo_link = "https://github.com/jerrytechstoman/personal/blob/main/my_passwords.txt"
 print(f"Scraped {len(products)} products. More scripts: {repo_link}")
